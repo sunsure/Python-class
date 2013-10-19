@@ -33,6 +33,9 @@ def number_to_name(number):
         return "scissors"
     else:
         return "Error"
+    # else is optional and for this MP unnecessary
+    # still it is good coding practice to include
+    # a last "catch-all" statement
     
 def name_to_number(name):
     # convert name to number using if/elif/else
@@ -74,7 +77,7 @@ def rpsls(player_name):
     # print results
     print "Player chooses", player_name
     print "Computer chooses", comp_name
-    # uncomment to show additional debug info
+    # uncomment the three lines below to show additional debug info
     #print "_test_ Player chooses", player_name, "(", player_number, ")"
     #print "_test_ Computer chooses", comp_name, "(", comp_number, ")"
     #print "_test_ Result =", result
